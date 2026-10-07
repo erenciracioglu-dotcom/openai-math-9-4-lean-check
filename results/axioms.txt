@@ -1,0 +1,5 @@
+'OAI.MatrixMultiplication.complex_omega_le_nine_quarters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.MatrixMultiplication.complex_alpha_gt_93_div_200' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.MatrixMultiplication.complex_rectangular_omega_lt_523_div_250' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

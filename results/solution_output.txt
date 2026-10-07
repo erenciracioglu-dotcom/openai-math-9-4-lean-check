@@ -1,0 +1,307 @@
+warning: PrimeNumberTheoremAnd: repository 'D:\lean\math\lean\.lake/packages\PrimeNumberTheoremAnd' has local changes
+warning: belyi: repository 'D:\lean\math\lean\.lake/packages\belyi' has local changes
+warning: formal-schemes: repository 'D:\lean\math\lean\.lake/packages\formal-schemes' has local changes
+warning: elliptic-curves: repository 'D:\lean\math\lean\.lake/packages\elliptic-curves' has local changes
+warning: tempered-fundamental-groups: repository 'D:\lean\math\lean\.lake/packages\tempered-fundamental-groups' has local changes
+warning: oka: repository 'D:\lean\math\lean\.lake/packages\oka' has local changes
+warning: orbicurve-cores: repository 'D:\lean\math\lean\.lake/packages\orbicurve-cores' has local changes
+warning: pi1: repository 'D:\lean\math\lean\.lake/packages\pi1' has local changes
+warning: heights: repository 'D:\lean\math\lean\.lake/packages\heights' has local changes
+warning: genl: repository 'D:\lean\math\lean\.lake/packages\genl' has local changes
+warning: tate-curves-theta: repository 'D:\lean\math\lean\.lake/packages\tate-curves-theta' has local changes
+warning: iut: repository 'D:\lean\math\lean\.lake/packages\iut' has local changes
+warning: gromov: repository 'D:\lean\math\lean\.lake/packages\gromov' has local changes
+warning: SphereEversion: repository 'D:\lean\math\lean\.lake/packages\SphereEversion' has local changes
+warning: schoenflies-lean: repository 'D:\lean\math\lean\.lake/packages\schoenflies-lean' has local changes
+warning: ClassFieldTheory: repository 'D:\lean\math\lean\.lake/packages\ClassFieldTheory' has local changes
+warning: AINTLIB: repository 'D:\lean\math\lean\.lake/packages\AINTLIB' has local changes
+warning: AbsorptionCutoff: repository 'D:\lean\math\lean\.lake/packages\AbsorptionCutoff' has local changes
+warning: StrongPNT: repository 'D:\lean\math\lean\.lake/packages\StrongPNT' has local changes
+warning: carleson: repository 'D:\lean\math\lean\.lake/packages\carleson' has local changes
+warning: rellich-kondrachov: repository 'D:\lean\math\lean\.lake/packages\rellich-kondrachov' has local changes
+warning: Zeta3Irrational: repository 'D:\lean\math\lean\.lake/packages\Zeta3Irrational' has local changes
+warning: fixed-point-theorems: repository 'D:\lean\math\lean\.lake/packages\fixed-point-theorems' has local changes
+OAI.MatrixMultiplication.complex_omega_le_nine_quarters : @LE.le.{0} Real Real.instLE
+  (@OAI.MatrixMultiplication.Arithmetic.omega.{0} Complex Complex.instField)
+  (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+    (@OfNat.ofNat.{0} Real (nat_lit 9)
+      (@instOfNatAtLeastTwo.{0} Real (nat_lit 9) Real.instNatCast
+        (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 8) (instOfNatNat (nat_lit 8)))
+          (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 7) (instOfNatNat (nat_lit 7)))))))
+    (@OfNat.ofNat.{0} Real (nat_lit 4)
+      (@instOfNatAtLeastTwo.{0} Real (nat_lit 4) Real.instNatCast
+        (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+          (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))))
+OAI.MatrixMultiplication.complex_alpha_gt_93_div_200 : @LT.lt.{0} Real Real.instLT
+  (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+    (@OfNat.ofNat.{0} Real (nat_lit 93)
+      (@instOfNatAtLeastTwo.{0} Real (nat_lit 93) Real.instNatCast
+        (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 92) (instOfNatNat (nat_lit 92)))
+          (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 91) (instOfNatNat (nat_lit 91)))))))
+    (@OfNat.ofNat.{0} Real (nat_lit 200)
+      (@instOfNatAtLeastTwo.{0} Real (nat_lit 200) Real.instNatCast
+        (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 199) (instOfNatNat (nat_lit 199)))
+          (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 198) (instOfNatNat (nat_lit 198))))))))
+  OAI.MatrixMultiplication.Arithmetic.complexAlpha
+OAI.MatrixMultiplication.complex_rectangular_omega_lt_523_div_250 : @LT.lt.{0} Real Real.instLT
+  (@OAI.MatrixMultiplication.Arithmetic.rectangularOmega.{0} Complex Complex.instField
+    (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+      (@OfNat.ofNat.{0} Real (nat_lit 709)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 709) Real.instNatCast
+          (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 708) (instOfNatNat (nat_lit 708)))
+            (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 707) (instOfNatNat (nat_lit 707)))))))
+      (@OfNat.ofNat.{0} Real (nat_lit 1000)
+        (@instOfNatAtLeastTwo.{0} Real (nat_lit 1000) Real.instNatCast
+          (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 999) (instOfNatNat (nat_lit 999)))
+            (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 998) (instOfNatNat (nat_lit 998)))))))))
+  (@HDiv.hDiv.{0, 0, 0} Real Real Real (@instHDiv.{0} Real (@DivInvMonoid.toDiv.{0} Real Real.instDivInvMonoid))
+    (@OfNat.ofNat.{0} Real (nat_lit 523)
+      (@instOfNatAtLeastTwo.{0} Real (nat_lit 523) Real.instNatCast
+        (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 522) (instOfNatNat (nat_lit 522)))
+          (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 521) (instOfNatNat (nat_lit 521)))))))
+    (@OfNat.ofNat.{0} Real (nat_lit 250)
+      (@instOfNatAtLeastTwo.{0} Real (nat_lit 250) Real.instNatCast
+        (@Nat.instAtLeastTwoHAddOfNat (@OfNat.ofNat.{0} Nat (nat_lit 249) (instOfNatNat (nat_lit 249)))
+          (@Nat.instNeZeroSucc (@OfNat.ofNat.{0} Nat (nat_lit 248) (instOfNatNat (nat_lit 248))))))))
+inductive OAI.MatrixMultiplication.Arithmetic.Gate.{u_1, u_2, u_3} : (F : Type u_1) →
+  (Input : Type u_2) → (Register : Type u_3) → Type (max (max u_1 u_2) u_3)
+number of parameters: 3
+constructors:
+OAI.MatrixMultiplication.Arithmetic.Gate.constant : {F : Type u_1} →
+  {Input : Type u_2} →
+    {Register : Type u_3} → F → OAI.MatrixMultiplication.Arithmetic.Gate.{u_1, u_2, u_3} F Input Register
+OAI.MatrixMultiplication.Arithmetic.Gate.input : {F : Type u_1} →
+  {Input : Type u_2} →
+    {Register : Type u_3} → Input → OAI.MatrixMultiplication.Arithmetic.Gate.{u_1, u_2, u_3} F Input Register
+OAI.MatrixMultiplication.Arithmetic.Gate.add : {F : Type u_1} →
+  {Input : Type u_2} →
+    {Register : Type u_3} →
+      Register → Register → OAI.MatrixMultiplication.Arithmetic.Gate.{u_1, u_2, u_3} F Input Register
+OAI.MatrixMultiplication.Arithmetic.Gate.sub : {F : Type u_1} →
+  {Input : Type u_2} →
+    {Register : Type u_3} →
+      Register → Register → OAI.MatrixMultiplication.Arithmetic.Gate.{u_1, u_2, u_3} F Input Register
+OAI.MatrixMultiplication.Arithmetic.Gate.mul : {F : Type u_1} →
+  {Input : Type u_2} →
+    {Register : Type u_3} →
+      Register → Register → OAI.MatrixMultiplication.Arithmetic.Gate.{u_1, u_2, u_3} F Input Register
+def OAI.MatrixMultiplication.Arithmetic.Gate.eval.{u_1, u_2, u_3} : {F : Type u_1} →
+  {Input : Type u_2} →
+    {Register : Type u_3} →
+      [Field.{u_1} F] →
+        (inputs : Input → F) →
+          (registers : Register → F) → OAI.MatrixMultiplication.Arithmetic.Gate.{u_1, u_2, u_3} F Input Register → F :=
+fun {F : Type u_1} {Input : Type u_2} {Register : Type u_3} [inst : Field.{u_1} F] (inputs : Input → F)
+    (registers : Register → F) (x : OAI.MatrixMultiplication.Arithmetic.Gate.{u_1, u_2, u_3} F Input Register) =>
+  @OAI.MatrixMultiplication.Arithmetic.Gate.eval.match_1.{u_1, u_2, u_3, u_1 + 1} F Input Register
+    (fun (x : OAI.MatrixMultiplication.Arithmetic.Gate.{u_1, u_2, u_3} F Input Register) => F) x (fun (z : F) => z)
+    (fun (i : Input) => inputs i)
+    (fun (i j : Register) =>
+      @HAdd.hAdd.{u_1, u_1, u_1} F F F
+        (@instHAdd.{u_1} F
+          (@Distrib.toAdd.{u_1} F
+            (@instDistribOfSemiring.{u_1} F
+              (@CommSemiring.toSemiring.{u_1} F
+                (@Semifield.toCommSemiring.{u_1} F (@Field.toSemifield.{u_1} F inst))))))
+        (registers i) (registers j))
+    (fun (i j : Register) =>
+      @HSub.hSub.{u_1, u_1, u_1} F F F
+        (@instHSub.{u_1} F
+          (@SubNegMonoid.toSub.{u_1} F
+            (@AddGroup.toSubNegMonoid.{u_1} F
+              (@AddGroupWithOne.toAddGroup.{u_1} F
+                (@Ring.toAddGroupWithOne.{u_1} F
+                  (@DivisionRing.toRing.{u_1} F (@Field.toDivisionRing.{u_1} F inst)))))))
+        (registers i) (registers j))
+    fun (i j : Register) =>
+    @HMul.hMul.{u_1, u_1, u_1} F F F
+      (@instHMul.{u_1} F
+        (@Distrib.toMul.{u_1} F
+          (@instDistribOfSemiring.{u_1} F
+            (@CommSemiring.toSemiring.{u_1} F (@Semifield.toCommSemiring.{u_1} F (@Field.toSemifield.{u_1} F inst))))))
+      (registers i) (registers j)
+def OAI.MatrixMultiplication.Arithmetic.Gate.cost.{u_1, u_2, u_3} : {F : Type u_1} →
+  {Input : Type u_2} →
+    {Register : Type u_3} → OAI.MatrixMultiplication.Arithmetic.Gate.{u_1, u_2, u_3} F Input Register → Nat :=
+fun {F : Type u_1} {Input : Type u_2} {Register : Type u_3}
+    (x : OAI.MatrixMultiplication.Arithmetic.Gate.{u_1, u_2, u_3} F Input Register) =>
+  @OAI.MatrixMultiplication.Arithmetic.Gate.eval.match_1.{u_1, u_2, u_3, 1} F Input Register
+    (fun (x : OAI.MatrixMultiplication.Arithmetic.Gate.{u_1, u_2, u_3} F Input Register) => Nat) x
+    (fun (a : F) => @OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+    (fun (a : Input) => @OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+    (fun (a a_1 : Register) => @OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))
+    (fun (a a_1 : Register) => @OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) fun (a a_1 : Register) =>
+    @OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))
+inductive OAI.MatrixMultiplication.Arithmetic.Program.{u_1, u_2} : (F : Type u_1) →
+  (Input : Type u_2) → Nat → Type (max u_1 u_2)
+number of parameters: 2
+constructors:
+OAI.MatrixMultiplication.Arithmetic.Program.nil : {F : Type u_1} →
+  {Input : Type u_2} →
+    OAI.MatrixMultiplication.Arithmetic.Program.{u_1, u_2} F Input
+      (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0)))
+OAI.MatrixMultiplication.Arithmetic.Program.step : {F : Type u_1} →
+  {Input : Type u_2} →
+    {r : Nat} →
+      OAI.MatrixMultiplication.Arithmetic.Program.{u_1, u_2} F Input r →
+        OAI.MatrixMultiplication.Arithmetic.Gate.{u_1, u_2, 0} F Input (Fin r) →
+          OAI.MatrixMultiplication.Arithmetic.Program.{u_1, u_2} F Input
+            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) r
+              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+def OAI.MatrixMultiplication.Arithmetic.Program.eval.{u_1, u_2} : {F : Type u_1} →
+  {Input : Type u_2} →
+    [Field.{u_1} F] →
+      {r : Nat} → OAI.MatrixMultiplication.Arithmetic.Program.{u_1, u_2} F Input r → (Input → F) → Fin r → F :=
+fun {F : Type u_1} {Input : Type u_2} [inst : Field.{u_1} F] (x : Nat)
+    (x_1 : OAI.MatrixMultiplication.Arithmetic.Program.{u_1, u_2} F Input x) (x_2 : Input → F) =>
+  @OAI.MatrixMultiplication.Arithmetic.Program.brecOn.{max (u_1 + 1) (u_2 + 1), u_1, u_2} F Input
+    (fun (x : Nat) (x_3 : OAI.MatrixMultiplication.Arithmetic.Program.{u_1, u_2} F Input x) => (Input → F) → Fin x → F)
+    x x_1 (@OAI.MatrixMultiplication.Arithmetic.Program.eval._f.{u_1, u_2} F Input inst) x_2
+def OAI.MatrixMultiplication.Arithmetic.Program.cost.{u_1, u_2} : {F : Type u_1} →
+  {Input : Type u_2} → {r : Nat} → OAI.MatrixMultiplication.Arithmetic.Program.{u_1, u_2} F Input r → Nat :=
+fun {F : Type u_1} {Input : Type u_2} (x : Nat)
+    (x_1 : OAI.MatrixMultiplication.Arithmetic.Program.{u_1, u_2} F Input x) =>
+  @OAI.MatrixMultiplication.Arithmetic.Program.brecOn.{1, u_1, u_2} F Input
+    (fun (x : Nat) (x_2 : OAI.MatrixMultiplication.Arithmetic.Program.{u_1, u_2} F Input x) => Nat) x x_1
+    (@OAI.MatrixMultiplication.Arithmetic.Program.cost._f.{u_1, u_2} F Input)
+@[reducible] def OAI.MatrixMultiplication.Arithmetic.MatrixInput : (a b c : Nat) → Type :=
+fun (a b c : Nat) => Sum.{0, 0} (Prod.{0, 0} (Fin a) (Fin b)) (Prod.{0, 0} (Fin b) (Fin c))
+def OAI.MatrixMultiplication.Arithmetic.matrixInputs.{u_1} : {F : Type u_1} →
+  {a b c : Nat} →
+    (A : Matrix.{0, 0, u_1} (Fin a) (Fin b) F) →
+      (B : Matrix.{0, 0, u_1} (Fin b) (Fin c) F) → OAI.MatrixMultiplication.Arithmetic.MatrixInput a b c → F :=
+fun {F : Type u_1} {a b c : Nat} (A : Matrix.{0, 0, u_1} (Fin a) (Fin b) F) (B : Matrix.{0, 0, u_1} (Fin b) (Fin c) F)
+    (x : OAI.MatrixMultiplication.Arithmetic.MatrixInput a b c) =>
+  @OAI.MatrixMultiplication.Arithmetic.matrixInputs.match_1.{u_1 + 1} a b c
+    (fun (x : OAI.MatrixMultiplication.Arithmetic.MatrixInput a b c) => F) x (fun (i : Fin a) (j : Fin b) => A i j)
+    fun (j : Fin b) (k : Fin c) => B j k
+structure OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.{u_1} (F : Type u_1) (a b c : Nat) : Type u_1
+number of parameters: 4
+fields:
+  OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.registers.{u_1} : Nat
+  OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.program.{u_1} : OAI.MatrixMultiplication.Arithmetic.Program.{u_1,
+        0}
+      F (OAI.MatrixMultiplication.Arithmetic.MatrixInput a b c)
+      (@OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.registers.{u_1} F a b c self)
+  OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.output.{u_1} : Fin a →
+      Fin c → Fin (@OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.registers.{u_1} F a b c self)
+constructor:
+  OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.mk.{u_1} {F : Type u_1} {a b c : Nat} (registers : Nat)
+    (program :
+      OAI.MatrixMultiplication.Arithmetic.Program.{u_1, 0} F (OAI.MatrixMultiplication.Arithmetic.MatrixInput a b c)
+        registers)
+    (output : Fin a → Fin c → Fin registers) : OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.{u_1} F a b c
+def OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.eval.{u_1} : {F : Type u_1} →
+  [Field.{u_1} F] →
+    {a b c : Nat} →
+      (P : OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.{u_1} F a b c) →
+        (A : Matrix.{0, 0, u_1} (Fin a) (Fin b) F) →
+          (B : Matrix.{0, 0, u_1} (Fin b) (Fin c) F) → Matrix.{0, 0, u_1} (Fin a) (Fin c) F :=
+fun {F : Type u_1} [inst : Field.{u_1} F] {a b c : Nat}
+    (P : OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.{u_1} F a b c) (A : Matrix.{0, 0, u_1} (Fin a) (Fin b) F)
+    (B : Matrix.{0, 0, u_1} (Fin b) (Fin c) F) (i : Fin a) (k : Fin c) =>
+  @OAI.MatrixMultiplication.Arithmetic.Program.eval.{u_1, 0} F (OAI.MatrixMultiplication.Arithmetic.MatrixInput a b c)
+    inst (@OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.registers.{u_1} F a b c P)
+    (@OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.program.{u_1} F a b c P)
+    (@OAI.MatrixMultiplication.Arithmetic.matrixInputs.{u_1} F a b c A B)
+    (@OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.output.{u_1} F a b c P i k)
+def OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.Correct.{u_1} : {F : Type u_1} →
+  [Field.{u_1} F] → {a b c : Nat} → (P : OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.{u_1} F a b c) → Prop :=
+fun {F : Type u_1} [inst : Field.{u_1} F] {a b c : Nat}
+    (P : OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.{u_1} F a b c) =>
+  ∀ (A : Matrix.{0, 0, u_1} (Fin a) (Fin b) F) (B : Matrix.{0, 0, u_1} (Fin b) (Fin c) F),
+    @Eq.{u_1 + 1} (Matrix.{0, 0, u_1} (Fin a) (Fin c) F)
+      (@OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.eval.{u_1} F inst a b c P A B)
+      (@HMul.hMul.{u_1, u_1, u_1} (Matrix.{0, 0, u_1} (Fin a) (Fin b) F) (Matrix.{0, 0, u_1} (Fin b) (Fin c) F)
+        (Matrix.{0, 0, u_1} (Fin a) (Fin c) F)
+        (@Matrix.instHMulOfFintypeOfMulOfAddCommMonoid.{u_1, 0, 0, 0} (Fin a) (Fin b) (Fin c) F (Fin.fintype b)
+          (@Distrib.toMul.{u_1} F
+            (@instDistribOfSemiring.{u_1} F
+              (@CommSemiring.toSemiring.{u_1} F (@Semifield.toCommSemiring.{u_1} F (@Field.toSemifield.{u_1} F inst)))))
+          (@Semiring.toAddCommMonoid.{u_1} F
+            (@CommSemiring.toSemiring.{u_1} F (@Semifield.toCommSemiring.{u_1} F (@Field.toSemifield.{u_1} F inst)))))
+        A B)
+def OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.cost.{u_1} : {F : Type u_1} →
+  {a b c : Nat} → (P : OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.{u_1} F a b c) → Nat :=
+fun {F : Type u_1} {a b c : Nat} (P : OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.{u_1} F a b c) =>
+  @OAI.MatrixMultiplication.Arithmetic.Program.cost.{u_1, 0} F (OAI.MatrixMultiplication.Arithmetic.MatrixInput a b c)
+    (@OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.registers.{u_1} F a b c P)
+    (@OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.program.{u_1} F a b c P)
+def OAI.MatrixMultiplication.Arithmetic.AdmissibleExponent.{u_1} : (F : Type u_1) →
+  [Field.{u_1} F] → (τ : Real) → Prop :=
+fun (F : Type u_1) [inst : Field.{u_1} F] (τ : Real) =>
+  ∀ (ε : Real),
+    @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) ε →
+      @Exists.{1} Real fun (C : Real) =>
+        And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) C)
+          (∀ (n : Nat),
+            @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) n →
+              @Exists.{u_1 + 1} (OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.{u_1} F n n n)
+                fun (P : OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.{u_1} F n n n) =>
+                And (@OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.Correct.{u_1} F inst n n n P)
+                  (@LE.le.{0} Real Real.instLE
+                    (@Nat.cast.{0} Real Real.instNatCast
+                      (@OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.cost.{u_1} F n n n P))
+                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) C
+                      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+                        (@Nat.cast.{0} Real Real.instNatCast n)
+                        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) τ ε)))))
+def OAI.MatrixMultiplication.Arithmetic.omega.{u_1} : (F : Type u_1) → [Field.{u_1} F] → Real :=
+fun (F : Type u_1) [inst : Field.{u_1} F] =>
+  @InfSet.sInf.{0} Real Real.instInfSet
+    (@Set.ofPred.{0} Real fun (τ : Real) => @OAI.MatrixMultiplication.Arithmetic.AdmissibleExponent.{u_1} F inst τ)
+def OAI.MatrixMultiplication.Arithmetic.innerSize : (n : Nat) → (k : Real) → Nat :=
+fun (n : Nat) (k : Real) =>
+  @Nat.ceil.{0} Real Real.semiring Real.partialOrder
+    (@FloorRing.toFloorSemiring.{0} Real Real.instRing Real.linearOrder Real.instFloorRing)
+    (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+      (@Nat.cast.{0} Real Real.instNatCast n) k)
+def OAI.MatrixMultiplication.Arithmetic.RectangularAdmissibleExponent.{u_1} : (F : Type u_1) →
+  [Field.{u_1} F] → (k τ : Real) → Prop :=
+fun (F : Type u_1) [inst : Field.{u_1} F] (k τ : Real) =>
+  ∀ (ε : Real),
+    @LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) ε →
+      @Exists.{1} Real fun (C : Real) =>
+        And (@LT.lt.{0} Real Real.instLT (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero)) C)
+          (∀ (n : Nat),
+            @LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))) n →
+              @Exists.{u_1 + 1}
+                (OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.{u_1} F n
+                  (OAI.MatrixMultiplication.Arithmetic.innerSize n k) n)
+                fun
+                  (P :
+                    OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.{u_1} F n
+                      (OAI.MatrixMultiplication.Arithmetic.innerSize n k) n) =>
+                And
+                  (@OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.Correct.{u_1} F inst n
+                    (OAI.MatrixMultiplication.Arithmetic.innerSize n k) n P)
+                  (@LE.le.{0} Real Real.instLE
+                    (@Nat.cast.{0} Real Real.instNatCast
+                      (@OAI.MatrixMultiplication.Arithmetic.MatrixAlgorithm.cost.{u_1} F n
+                        (OAI.MatrixMultiplication.Arithmetic.innerSize n k) n P))
+                    (@HMul.hMul.{0, 0, 0} Real Real Real (@instHMul.{0} Real Real.instMul) C
+                      (@HPow.hPow.{0, 0, 0} Real Real Real (@instHPow.{0, 0} Real Real Real.instPow)
+                        (@Nat.cast.{0} Real Real.instNatCast n)
+                        (@HAdd.hAdd.{0, 0, 0} Real Real Real (@instHAdd.{0} Real Real.instAdd) τ ε)))))
+def OAI.MatrixMultiplication.Arithmetic.rectangularOmega.{u_1} : (F : Type u_1) → [Field.{u_1} F] → (k : Real) → Real :=
+fun (F : Type u_1) [inst : Field.{u_1} F] (k : Real) =>
+  @InfSet.sInf.{0} Real Real.instInfSet
+    (@Set.ofPred.{0} Real fun (τ : Real) =>
+      @OAI.MatrixMultiplication.Arithmetic.RectangularAdmissibleExponent.{u_1} F inst k τ)
+def OAI.MatrixMultiplication.Arithmetic.complexAlpha : Real :=
+@SupSet.sSup.{0} Real Real.instSupSet
+  (@Set.ofPred.{0} Real fun (k : Real) =>
+    And
+      (@Membership.mem.{0, 0} Real (Set.{0} Real) (@Set.instMembership.{0} Real)
+        (@Set.Icc.{0} Real Real.instPreorder (@OfNat.ofNat.{0} Real (nat_lit 0) (@Zero.toOfNat0.{0} Real Real.instZero))
+          (@OfNat.ofNat.{0} Real (nat_lit 1) (@One.toOfNat1.{0} Real Real.instOne)))
+        k)
+      (@Eq.{1} Real (@OAI.MatrixMultiplication.Arithmetic.rectangularOmega.{0} Complex Complex.instField k)
+        (@OfNat.ofNat.{0} Real (nat_lit 2)
+          (@instOfNatAtLeastTwo.{0} Real (nat_lit 2) Real.instNatCast
+            OAI.MatrixMultiplication.Arithmetic.complexAlpha._proof_1))))
+'OAI.MatrixMultiplication.complex_omega_le_nine_quarters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.MatrixMultiplication.complex_alpha_gt_93_div_200' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.MatrixMultiplication.complex_rectangular_omega_lt_523_div_250' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
